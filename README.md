@@ -7,4 +7,6 @@ There are four datasets: YAGO, WIKI, ICEWS14 and ICEWS05-15. Each data folder ha
 # Run the experiments <br>
 1. cd ./TAE/train <br>
 2. python train_TAEconve.py (defult setting) 
-3. python --dataset YAGO ----lr-conv 0.001 ----time-interval 1 ----n-epochs-conv 50 ----batch-size-conv 50 --pred sub --valid-epoch 5 --count 8 (you can setting parameters this way)
+3. python --dataset YAGO ----lr-conv 0.001 ----time-interval 1 ----n-epochs-conv 50 ----batch-size-conv 50 --pred sub --valid-epoch 5 --count 8 (you can setting parameters this way) <br>
+   supplement:the parameter 'valid_epoch' is 1 for dataset ICEWS14 and 5 for other datasets
+
